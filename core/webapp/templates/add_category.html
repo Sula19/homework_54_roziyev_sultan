@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Add Category{% endblock %}
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col">
+                <label for="exampleFormControlInput1" class="form-label">Title</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Title" name="title">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Description" name="description"></textarea>
+            </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-danger">Create</button>
+    </form>
+{% endblock %}

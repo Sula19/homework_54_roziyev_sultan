@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Categories{% endblock %}
+{% block content %}
+    <form method="post">
+        {% for category in categories %}
+        <div class="card w-75 mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Категория - {{ category.title }}</h5><br>
+                <a href="{% url 'delete' category.pk %}"><button type="button" class="btn btn-secondary">Delete</button></a>
+                <a href="{% url 'update' category.pk %}"><button type="button" class="btn btn-secondary">Update</button></a>
+            </div>
+        </div>
+        {% endfor %}
+    </form>
+{% endblock %}
