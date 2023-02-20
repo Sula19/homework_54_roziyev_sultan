@@ -1,0 +1,24 @@
+* {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+body {
+    background: grey;
+}
+.navbar {
+    background: dimgray;
+}
+h3 {
+    color: ghostwhite;
+}
+p {
+    color: ghostwhite;
+}
+.image {
+    height: 220px;
+}
+.col {
+    color: black;
+}
+.card {
+    background: gainsboro;
+}
