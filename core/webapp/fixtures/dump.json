@@ -1,0 +1,108 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 11,
+  "fields": {
+    "title": "Lexus GS 300",
+    "description": "Продается Lexus GS 300 2021 года, звонить по номеру +7-XXX-XX-XX",
+    "category": 13,
+    "created_at": "2023-02-20T09:23:19.488Z",
+    "price": "34000.000",
+    "image": "https://media.ed.edmunds-media.com/lexus/gs-300/2018/oem/2018_lexus_gs-300_sedan_base_fq_oem_1_1600.jpg"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 13,
+  "fields": {
+    "title": "Lexus LX 570",
+    "description": "Продается Lexus LX 570 2022 года, писать по номеру 8-XXX-XX-XX",
+    "category": 14,
+    "created_at": "2023-02-20T09:25:59.986Z",
+    "price": "56000.000",
+    "image": "https://nextcar.ua/images/blog/495/lexus-lx-2022__3_.jpg"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 14,
+  "fields": {
+    "title": "Toyota Camry",
+    "description": "Продается Toyota Camry 2021 года",
+    "category": 13,
+    "created_at": "2023-02-20T09:27:01.584Z",
+    "price": "45000.000",
+    "image": "https://d8a6a33f-3369-444b-9b5f-793c13ff0708.selcdn.net/uploads/projects/toyota_center_iat_pilot_test/uploads/images/a59284f78b440e9235450baf2429636a8eebb34d.jpeg"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 15,
+  "fields": {
+    "title": "Audi A6",
+    "description": "Продвется Audi A6 2020 года",
+    "category": 13,
+    "created_at": "2023-02-20T09:28:26.429Z",
+    "price": "42240.000",
+    "image": "https://firefly-cdn.zr.ru/_ah/img/gC6xqu78OCACK4zRxHyw4A=s800"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 16,
+  "fields": {
+    "title": "Land Cruiser Prado",
+    "description": "Продвется Land Cruiser Prado 2022 года, звонить по номеру 8-XXX-XX-XX",
+    "category": 14,
+    "created_at": "2023-02-20T09:29:48.878Z",
+    "price": "55680.000",
+    "image": "https://avatars.mds.yandex.net/get-vertis-journal/4212087/Toyota-land-cruiser-prado.jpg_1629102173857/orig"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 17,
+  "fields": {
+    "title": "Volkswagen",
+    "description": "Продается Volkswagen 2023 года",
+    "category": 14,
+    "created_at": "2023-02-20T09:49:09.226Z",
+    "price": "47004.000",
+    "image": "https://motor.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2022/07/08/23/5486360/09deee33eb89faff11b1fde71fafe75b3a6e41fb.jpg"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 13,
+  "fields": {
+    "title": "Седан",
+    "description": "Автомабили с категориями Седан"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 14,
+  "fields": {
+    "title": "Внедорожник",
+    "description": "Автомабили с категориями Внедорожник"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$0P3WmplVnD48H6IgIhgeBj$tHTJ3lbc5/elyR3fOo2vkB573WJMS1DATnx5as2IsVc=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-21T10:47:13.303Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
